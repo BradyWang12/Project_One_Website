@@ -1,0 +1,24 @@
+:root {
+  --white-darker: #f4f8fb;
+  --white: #fcfcfd;
+  --temp-green: #0bba60;
+  --green-darker: #099A4F;
+  --dark-green: #066836;
+  --dark-green-lighter: #088745;
+  --text-black: #000000;
+}
+
+body {
+  background-color: var(--temp-green);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #ddd;
+}
