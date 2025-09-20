@@ -10,7 +10,7 @@ body {
   background-color: var(--light-blue);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 10px;
 }
@@ -70,6 +70,14 @@ body {
   box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
 }
 
+.footer a:hover {
+  background-color: var(--gray);
+}
+
+.contact-information a:hover {
+  background-color: var(--light-gray);
+}
+
 .circle-crop {
   border-radius: 50%;
   border: 3px solid var(--gray);
@@ -78,8 +86,10 @@ body {
 }
 
 h2 {
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 7px; 
 }
+
 
