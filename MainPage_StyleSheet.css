@@ -78,6 +78,18 @@ body {
   background-color: var(--light-gray);
 }
 
+.projects a:hover {
+  background-color: var(--light-gray);
+}
+
+.professional-objective span {
+  display: block;
+}
+
+.education span {
+  display: block;
+}
+
 .circle-crop {
   border-radius: 50%;
   border: 3px solid var(--gray);
